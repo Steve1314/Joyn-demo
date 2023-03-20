@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first div p b{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.first div p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.first div input{
+    padding: 8px;
+    width: 150%;
+    height: 30px;
+    border-radius: 7px;
+}
+.first button{
+    width: 34%;
+    height: 50px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+.first div img{
+    width: 140px;
+    padding-top: 50px;
+}
+.second{
+    padding-left: 220px;
+}
+.second div p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.second div img{
+    width: 38px;
+    margin: 5px;
+}
+.second div{
+    font-size: 20px;
+    height: 36px;
+
+}
+.space{
+    height: 110px;
+}
+.third{
+    font-size: 20px;
+    height: 36px;
+}
