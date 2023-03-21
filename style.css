@@ -222,6 +222,7 @@ p {
 
 @media screen and (max-width: 767px) {
 
+    
     .navbar ul {
     display: none;
   }
