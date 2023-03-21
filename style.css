@@ -41,14 +41,17 @@ li {
   font-weight: bold;
   padding-left: 21px;
 }
+
 li a {
   text-decoration: none;
   color: black;
 }
+
 li a:hover {
   text-decoration: underline;
   text-underline-offset: 21px;
 }
+
 button {
   color: white;
   background-color: black;
@@ -58,47 +61,58 @@ button {
   font-size: 15px;
   font-weight: bold;
 }
+
 button:hover {
   opacity: 0.8;
 }
+
 hr {
   opacity: 0.4;
 }
+
 .header {
   padding-top: 130px;
   padding-left: 66px;
   padding-right: 580px;
 }
+
 h1 {
   font-size: 70px;
 }
+
 p {
   font-size: 23px;
   padding-top: 43px;
   line-height: 35px;
 }
+
 .team h1 {
   padding-top: 178px;
   padding-left: 66px;
 }
+
 .rowf {
   display: flex;
   justify-content: space-around;
   padding-right: 190px;
 }
+
 .mic img {
   width: 80px;
   height: 80px;
   border-radius: 15px;
 }
+
 .rowf .mic {
   display: flex;
   align-items: center;
   padding: 25px;
 }
+
 .mic div {
   font-size: 20px;
 }
+
 .container {
   padding-top: 30px;
 }
@@ -110,12 +124,15 @@ p {
 .second img {
   width: 40px;
 }
+
 .second img:hover {
   background-color: blue;
 }
+
 .second div {
   height: 20px;
 }
+
 .first input {
   width: 475px;
   height: 50px;
@@ -124,11 +141,13 @@ p {
   border-color: red;
   padding: 8px;
 }
+
 .first button {
   height: 50px;
   width: 90px;
   border-radius: 7px;
 }
+
 .footer {
   display: flex;
   justify-content: space-evenly;
@@ -141,6 +160,7 @@ p {
 .fs {
   padding-top: 60px;
 }
+
 .first p {
   padding-top: 6px;
   font-size: 15px;
@@ -153,57 +173,72 @@ p {
   font-size: 25px;
   height: 50px;
 }
+
 .second .join {
   font-weight: bold;
   font-size: 25px;
   height: 60px;
 }
+
 .second div {
   height: 35px;
 }
+
 .second img {
   height: 40px;
   margin: 3px;
 }
+
 .third {
   padding-top: 250px;
   padding-right: 40px;
 }
+
 .third div {
   height: 36px;
 }
+
 .s p {
   font-size: 18px;
   padding-bottom: 10px;
 }
+
 .second {
   padding-bottom: 75px;
   padding-right: 110px;
 }
+
 .menu img {
   display: none;
 }
+
 .flex {
   display: flex;
 }
+
 .flex .second {
   padding-top: 87px;
 }
 
 @media screen and (max-width: 991px) {
-  .navbar ul {
+
+    .navbar ul {
     display: none;
   }
+
   .header h1 {
     font-size: 40px;
   }
+
   .rowf {
     display: block;
   }
+
   .team h1 {
     font-size: 40px;
     padding-left: 4%;
   }
+
   .footer {
     display: block;
   }
@@ -211,24 +246,30 @@ p {
   .first input {
     width: 300px;
   }
+
   .flex {
     display: flex;
   }
+
   .third {
     padding-top: 30px;
   }
+
   .fs div {
     height: 30px;
   }
+
   .second img {
     width: 40px;
   }
+
   .second .join {
     height: 120px;
     padding-top: 80px;
     font-size: 20px;
     font-weight: bolder;
   }
+
   .footer {
     padding-left: 4%;
   }
@@ -236,6 +277,7 @@ p {
   .third {
     padding-left: 100px;
   }
+
   .s {
     padding-top: 50px;
   }
@@ -243,13 +285,16 @@ p {
   .header p {
     font-size: 20px;
   }
+
   .header {
     padding-left: 40px;
     padding-right: 0px;
   }
+
   .menu img {
     display: block;
   }
+
   .first .s {
     padding-top: 10px;
   }
